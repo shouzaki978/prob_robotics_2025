@@ -7,5 +7,5 @@
   - Python 3.11.0
 
 ## インストール
-    https://github.com/shouzaki978/prob_robotics_2025.git
-    cd prob_robotics_2025.git
+    $ https://github.com/shouzaki978/prob_robotics_2025.git
+    $ cd prob_robotics_2025.git
