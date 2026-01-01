@@ -20,24 +20,15 @@
 
 ### 状態ベクトルの定義
 
-ロボットの状態を
+    ロボットの状態を
 
-$$
-x_t =
-\begin{pmatrix}
-x_t \\
-v_t
-\end{pmatrix}
-$$
+    $$
+    x_t =
+    \begin{pmatrix}
+    x_t \\
+    v_t
+    \end{pmatrix}
+    $$
 
-とする．ここで，
-
-$$x_t$$
-
-は位置，
-
-$$v_t$$
-
-は速度を表す．
 
 
