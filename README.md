@@ -15,20 +15,10 @@
     $ python3 kalmanfilter.py
 
 ## アルゴリズム
-　1次元空間上を移動するロボットを対象とし,
-  状態として位置,速度を持つカルマンフィルタを用いる
+  カルマンフィルタの数式によるアルゴリズムは次のJupyter Notebookに記述している
 
-### 状態ベクトルの定義
+  $ kalmanfilter.ipynb
 
-    ロボットの状態を
-
-    $$
-    x_t =
-    \begin{pmatrix}
-    x_t \\
-    v_t
-    \end{pmatrix}
-    $$
 
 
 
