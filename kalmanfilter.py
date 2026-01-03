@@ -25,18 +25,18 @@ def init_params(dt, sigma_a, sigma_z):
     G = np.matrix([[dt**2 / 2],
                    [dt]]) #ノイズ
 
-    H = np.matrix([1, 0])
+    H = np.matrix([1, 0]) #観測行列
 
-    Q = (sigma_a ** 2) * G *G.T
+    Q = (sigma_a ** 2) * G *G.T #ノイズ共分散行列
 
-    R = sigma_z ** 2
+    R = sigma_z ** 2 #観測ノイズ共分散行列
 
-    I = np.eye(2)
+    I = np.eye(2) #単位行列
 
     x0 = np.matrix([[0.0],
-                    [0.0]])
+                    [0.0]]) #初期状態
 
-    p0 = np.zeros((2, 2))
+    p0 = np.zeros((2, 2)) #初期誤差共分散行列
     
     return A, B, G, H, Q, R, I, x0, p0
 
