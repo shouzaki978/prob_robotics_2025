@@ -16,8 +16,7 @@
 
 ## アルゴリズム
   カルマンフィルタの数式によるアルゴリズムは次のJupyter Notebookに記述している
-
-  $ kalmanfilter.ipynb
+    $ kalmanfilter.ipynb
 
 
 
